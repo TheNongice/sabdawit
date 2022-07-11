@@ -1,17 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Mali&family=Taviraj:wght@400;600&family=Ubuntu:wght@400;700&display=swap');
-html {
-    scroll-behavior: smooth;
-}
-body{
+.parallax-header{
+    background: #000;
+    background: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.8)
+    ),url('img/index.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
-    background: linear-gradient(#4e355f,#000);
+}
+.header-content{
+    padding: 250px 0;
+}
+.s-button{
+    display:inline-block;
+    border:2px solid rgb(134, 51, 173);
+    padding: 10px 20px;
+    color:#fff;
+    text-decoration:none;
+    transition:0.5s;
+    cursor:pointer;
+    background:rgb(134, 51, 173);
+    margin-top: 1.5rem;
+}
+.s-button:hover{
+    border:5px solid rgb(169, 111, 196);
+    background:rgb(169, 111, 196);
+    color:#fff;
+    display:inline-block;
+    border-radius:50px;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
+}
+a, a.remove-link, a.remove-link:visited, a.remove-link:active , a:hover{
+    text-decoration: none;
     color: #fff;
-    font-family: 'Taviraj',sans-serif;
-}
-h1{color: #000;}h2{color: #000;}h3{color: #000;}h4{color: #000;}h5{color: #000;}
-.card p{
-    color: #000;
-}
-.ubuntu{
-    font-family: 'Ubuntu',sans-serif;
 }

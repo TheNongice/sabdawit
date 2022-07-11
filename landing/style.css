@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&family=Taviraj:wght@400;600&family=Ubuntu:wght@400;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(#4e355f,#000);
+    color: #fff;
+    font-family: 'Taviraj',sans-serif;
+}
+h1{color: #000;}h2{color: #000;}h3{color: #000;}h4{color: #000;}h5{color: #000;}
+.card p{
+    color: #000;
+}
+.ubuntu{
+    font-family: 'Ubuntu',sans-serif;
+}
