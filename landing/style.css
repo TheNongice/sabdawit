@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mali&family=Taviraj:wght@400;600&family=Ubuntu:wght@400;700&display=swap');
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgb(169, 111, 196);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgb(169, 111, 196);
+}
 html {
     scroll-behavior: smooth;
 }
@@ -14,4 +25,11 @@ h1{color: #000;}h2{color: #000;}h3{color: #000;}h4{color: #000;}h5{color: #000;}
 }
 .ubuntu{
     font-family: 'Ubuntu',sans-serif;
+}
+.parallax{
+    background: url('https://img.freepik.com/free-vector/metro-entrance-night-city-with-neon-illumination_33099-1709.jpg?t=st=1657468205~exp=1657468805~hmac=68e5ef8db0dfc2036603aace3d3f26d6262547fb97db599076581995f7dab2a9&w=1380');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

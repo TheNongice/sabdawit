@@ -16,14 +16,33 @@
     <div class="parallax-header">
         <div class="container-fluid p-5">
             <div class="header-content text-center text-light">
-                <h1 class="fw-bold animate__animated animate__rubberBand">LIFE IN METAVERSE ✨</h1>
-                <h3 class="animate__animated animate__backInDown">ชีวิตใน Metaverse</h3><hr>
-                <a href="/landing/" class="s-button animate__animated animate__headShake">เข้าสู่หน้าหลัก</a>
+                <h1 class="fw-bold animate__animated animate__rubberBand titles">LIFE IN METAVERSE ✨</h1>
+                <h3 class="animate__animated animate__backInDown th"><span id="typed"></span></h3><hr>
+                <a href="/landing/" class="s-button animate__animated animate__headShake th">เข้าสู่หน้าหลัก</a>
             </div>
         </div>
     </div>
-    <div class="container-fluid my-3 text-center text-light">
-        <a href="https://pccst.ac.th"><h4>PCSHSST Team ~ M.5</h4></a>
+    <div class="container-fluid my-3 text-center text-light ubuntu">
+        <a onclick="creditMSG();"><h4>PCSHSST Team ~ M.5</h4></a>
     </div>
+    <script>
+        var typed = new Typed('#typed',{
+            strings: [
+                'ชีวิตที่ดีขึ้น^1500กับ Metaverse',
+                'อนาคตใหม่ที่จะมาเยือนในไม่ช้านี้!',
+                'โลกแห่งอนาคต',
+                'เตรียมพร้อมรับการปรับตัวครั้งยิ่งใหญ่'
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            shuffle: true,
+            loop: true
+        });
+
+        function creditMSG(){
+            alert('จัดทำโดย...\nนายวชิรวิทย์ ศรีสุนทรเกษม\nนายวสวัตติ์ จุนณศักดิ์ศรี\nระดับชั้นมัธยมศึกษาปีที่ 5');
+            window.location.href = "https://pccst.ac.th";
+        }
+    </script>
 </body>
 </html>
