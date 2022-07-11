@@ -27,9 +27,17 @@ h1{color: #000;}h2{color: #000;}h3{color: #000;}h4{color: #000;}h5{color: #000;}
     font-family: 'Ubuntu',sans-serif;
 }
 .parallax{
-    background: url('https://img.freepik.com/free-vector/metro-entrance-night-city-with-neon-illumination_33099-1709.jpg?t=st=1657468205~exp=1657468805~hmac=68e5ef8db0dfc2036603aace3d3f26d6262547fb97db599076581995f7dab2a9&w=1380');
+    background: url('./img/thumbnail.jpg');
     background-attachment: fixed;
-    background-position: center;
+    position: relative;
+    display: flex;
+    background-position: center,center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+li, hr{
+    color: #000;
+}
+a, a.remove-link, a.remove-link:visited, a.remove-link:active , a:hover{
+    text-decoration: none;
 }
