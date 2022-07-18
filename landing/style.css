@@ -27,7 +27,7 @@ h1{color: #000;}h2{color: #000;}h3{color: #000;}h4{color: #000;}h5{color: #000;}
     font-family: 'Ubuntu',sans-serif;
 }
 .parallax{
-    background: url('./img/thumbnail.jpg');
+    background-image: url('./img/thumbnail.jpg');
     background-attachment: fixed;
     position: relative;
     display: flex;
